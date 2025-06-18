@@ -363,7 +363,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif'); 
+    background-image: url('{{ site.baseurl }}/img/backgrounds/us_sepia2.gif');
     background-position: center center;
     /*background-position: top center;*/
     background-repeat: none;
@@ -398,7 +398,9 @@ header .intro-text .intro-heading {
     font-size: 75px;
     /*font-weight: 700;*/
     line-height: 75px;
+    padding-top: 100px;
     padding-bottom: 15px;
+    /*color: black;*/
 }
 
 @media(min-width:768px) {
@@ -406,7 +408,7 @@ header .intro-text .intro-heading {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/header.gif'); 
+    background-image: url('{{ site.baseurl }}/img/backgrounds/us_sepia2.gif');
     /*background-position: center center;*/
     background-position: top center;
     background-repeat: none;
@@ -441,9 +443,10 @@ header .intro-text .intro-heading {
         /*text-transform: uppercase;*/
         /*font-family: {{ site.data.template.font.primary }};*/
         font-family: 'stay_classy_sldtregular';
-        text-shadow: 2px 2px 4px #000000;
-        font-size: 100px;
-        /*font-weight: 700;*/
+        color: white;
+        text-shadow: 2px 2px 4px black;
+        font-size: 120px;
+        font-weight: 500;
         line-height: 110px;
     }
 }
