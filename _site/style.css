@@ -797,14 +797,14 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/img/backgrounds/contact-bg.jpg');
+    background-image: url('/img/backgrounds/IMG_7074.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #000;
 }
 
 section#contact .form-group {
